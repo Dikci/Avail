@@ -5,8 +5,6 @@ sudo apt install screen
 
 rm -rf /root/.avail/data
 
-screen -S avail
-
 echo '#!/bin/bash COMMAND="curl -sL1 avail.sh | bash" SESSION_NAME="avail_node_session"
 
 tmux has-session -t $SESSION_NAME 2>/dev/null
